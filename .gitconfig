@@ -1,0 +1,7 @@
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+    wip = !git add . && git commit -m \"WIP-0 work in progress\"
+    ane = !git add . && git commit --amend --no-edit
+[user]
+	email = piotrwozniak28@gmail.com
+	name = Piotr Wozniak
